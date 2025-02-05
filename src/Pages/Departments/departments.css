@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .header {
+    background-color: #fff;
+    width: 100%;
+    height: 24px;
+  }
+  .main-section-cse {
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/Slideshow/CVE1.jpeg) no-repeat center center; */
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .Computer_Science_and_Engineering{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url("https://nitgoa1.vercel.app/static/Slideshow/CSE1.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .Electrical_and_Electronics_Engineering{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url("https://nitgoa1.vercel.app/static/Slideshow/EEE1.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .Electronics_and_Communication_Engineering{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(https://nitgoa1.vercel.app/static/Slideshow/ECE1.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .Civil_Engineering{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(https://nitgoa1.vercel.app/static/Slideshow/CVE1.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .Applied_Sciences{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(https://nitgoa1.vercel.app/static/Slideshow/CSE1.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .Mechanical_Engineering{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(https://nitgoa1.vercel.app/static/Slideshow/CSE1.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .Humanities_and_Social_Sciences{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(https://nitgoa1.vercel.app/static/Slideshow/ECE1.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .main-section-cve {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/Departments/Civil_Engineering.jpg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .main-section-eee {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/Departments/Electrical_and_electronics.jpg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .main-section-ece {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/Departments/Electronics_and_communication.jpg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+  .main-section-mce {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/Departments/MCE.jpg) no-repeat center center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+  }
+
+  
+  .topic-heading {
+    bottom: 50px;
+    left: 16px;
+  }
+  .topic-subtitle {
+    bottom: 20px;
+    left: 16px;
+  }
+  .filter {
+    background-color: #f1f3f5;
+  }
+  .post-image {
+    height: 120px;
+    margin-top: 16px;
+    border: 2px 0 2px 0;
+  }
+  .text-16px {
+    font-size: 1rem;
+  }
+  .text-14px {
+    font-size: 0.875rem;
+  }
+  
+  .text-12px {
+    font-size: 0.75rem;
+  }
+  .profile-pic {
+    height: 37px;
+    width: 37px;
+  }
+  .share-btn {
+    background: #f1f3f5;
+    padding: 8px;
+    display: flex;
+  }
+  .posts-section {
+    background: #f1f3f5;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .login {
+    height: 462px;
+    width: 100%;
+    background: #fff;
+    bottom: 0;
+    position: fixed;
+  }
+  .login-form {
+    padding: 0 20px;
+  }
+  .p-20px {
+    padding: 20px;
+  }
+  .policy {
+    text-wrap: balance;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+  .facebook {
+    height: 16px;
+    width: 16px;
+  }
+  .signin-btn {
+    border-radius: 20px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 13px;
+  }
+  .signup-btn {
+    border-radius: 20px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 13px;
+  }
+  .text-18px {
+    font-size: 18px;
+  }
+  #login-modal {
+    transition-duration: 300ms;
+    transform: translateY(100%);
+  }
+  #signup-modal {
+    transition-duration: 300ms;
+    transform: translateY(100%);
+  }
+  .right {
+    display: none;
+  }
+  .active {
+    transform: translateY(0) !important;
+  }
+  .navbar-sm {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-item {
+    display: inline;
+    padding: 15px 10px;
+  }
+  .posts-section-left {
+    max-width: 692px;
+  }
+  .modal-title {
+    color: #008a45;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .modal-header {
+    background: #effff4;
+  }
+  .modal-dialog {
+    max-width: 736px !important;
+    min-height: 513px !important;
+  }
+  .newbtn-close {
+    position: absolute;
+    top: -27px;
+    right: 0px;
+    background: transparent;
+    border: 0;
+  }
+  .header-lg {
+    display: none;
+  }
+  .profile-top-img {
+    margin-right: 12px;
+  }
+  .post-btn {
+    font-size: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    background: #edeef0;
+    padding: 8px;
+    margin-right: 7px;
+  }
+  .join-grp-2 {
+    border-radius: 4px;
+    background: #2f6ce5;
+    font-size: 15px;
+    font-size: 15px;
+    padding: 8px;
+  }
+  
+  .navbar {
+    display: none;
+  }
+  #navbar{
+      display: none;
+  }
+  .btn-visit{
+      padding: 0 16px;
+      width: 100%;
+  }
+  .btn-visit button{
+      background: none;
+      color: #E56135;
+      padding: 12px 0;
+      border: 1px solid #e5e5e5;
+      width: 100%;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 28px;
+      border-radius: 7px;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 7px 12px;
+      z-index: 1;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 400;
+      left: -50px;
+  }
+  
+  .more-options:hover .dropdown-content {
+      display: block;
+  }
+  
+  .dropdown-content p {
+      margin: 0;
+      padding: 8px 0;
+      cursor: pointer;
+  }
+  
+  @media screen and (min-width: 500px) {
+    .main-section {
+      height: 440px;
+    }
+    .post-image {
+      height: 220px;
+      margin-top: 0;
+    }
+    .posts-section {
+      display: flex;
+      background: #fff;
+    }
+    .border-sm {
+      border: 1px solid #e5e5e5;
+    }
+  
+   
+    .main-container {
+      display: inline;
+      flex-direction: column;
+      margin: 0 auto;
+      align-items: center;
+      position: relative;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1200px) {
+      .navbar-sm {
+          display: none;
+        }
+      .header-lg {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          position: fixed;
+          z-index: 1000;
+          background: #fff;
+        }
+        .header {
+          display: none;
+        }
+        .search-top {
+          background: #f2f2f2;
+          border-radius: 21px;
+          padding: 10px 20px;
+          display: flex;
+          align-items: center;
+          margin: 14px 0;
+        }
+        .logoimg {
+          margin: 24px 0 24px 72px;
+        }
+        .search-feild {
+          margin: 0;
+          margin-left: 14px;
+          border: none;
+          background: #f2f2f2;
+          color: #5c5c5c;
+          width: 270px;
+          font-size: 14px;
+          font-weight: 500;
+        }
+      #navbar {
+          margin-top: 32px;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid #e5e5e5;
+          padding: 20px 0;
+          margin: 0 200px;
+        }
+      .posts-section{
+          padding-left: 200px;
+        }
+      .profile-top {
+          display: flex;
+          align-items: center;
+          margin-right: 200px;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      .topic-heading {
+          margin-left: 200px;
+          font-size: 2.25rem;
+          font-weight: 700;
+        }
+        .topic-subtitle {
+          margin-left: 200px;
+          font-size: 1.125rem;
+          font-weight: 400;
+        }
+      .right {
+          margin-left: 105px;
+          margin-right: 200px;
+          margin-top: 56px;
+          display: block;
+        }
+  
+    .navbar-sm {
+      display: none;
+    }
+    .navbar {
+      padding-top: 32px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 20px 0;
+      margin: 0 200px;
+    }
+    .main-container {
+      display: inline;
+      flex-direction: column;
+      margin: 0 auto;
+      align-items: center;
+      position: relative;
+    }
+    .header-lg {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .header {
+      display: none;
+    }
+    .search-top {
+      background: #f2f2f2;
+      border-radius: 21px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      margin: 14px 0;
+    }
+    .logoimg {
+      margin: 24px 0 24px 72px;
+    }
+    .search-feild {
+      margin: 0;
+      margin-left: 14px;
+      border: none;
+      background: #f2f2f2;
+      color: #5c5c5c;
+      width: 270px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .profile-top {
+      display: flex;
+      align-items: center;
+      margin-right: 200px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  
