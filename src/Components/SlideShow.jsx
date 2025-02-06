@@ -124,13 +124,13 @@ const SlideShow = () => {
 
               </div>
           </SwiperSlide>
-          <SwiperSlide>
+           {/* <SwiperSlide>
             <>
-              {/* <img 
+              <img 
                     src={NIT} 
                     className=" inset-0 bg-cover bg-center w-full h-screen" 
                     alt=""
-                  /> */}
+                  />
               
               <div className="relative h-full">
                 <img
@@ -140,7 +140,7 @@ const SlideShow = () => {
                 />
               </div>
             </>
-          </SwiperSlide>
+          </SwiperSlide>  */}
 
           {/* ))} */}
         </Swiper>
