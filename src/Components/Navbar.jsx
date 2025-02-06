@@ -383,7 +383,7 @@ const Navbar = () => {
                 </li>
                 <ul className={` ${Menu1 ? "absolute" : "hidden"} z-100 bg-${theme}txtbg text-${theme}txtth flex flex-col justify-center rounded-md px-2 pb-2 whitespace-nowrap border border-${theme}txtbg shadow-lg`}>
 
-                  <Link className="border-b hover:text-blue-500 p-2" to="/Organising_Commitee">
+                  <Link className="border-b hover:text-blue-500 p-2" to="/Organising_Committee">
                     Organising Committee
                   </Link>
                   <li className={`border-b hover:text-blue-500 p-2`}>

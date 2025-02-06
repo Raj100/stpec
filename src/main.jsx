@@ -176,7 +176,7 @@ const Root = () => {
 
 
 
-              <Route path="/Organising_Commitee" element={<OrganisingCommitee />} />
+              <Route path="/Organising_Committee" element={<OrganisingCommitee />} />
               <Route path="/In_and_around_Goa" element={<In_and_around_Goa />} />
               <Route path="/Stay" element={<Stay />} />
               <Route path="/Contact" element={<Contact />} />
