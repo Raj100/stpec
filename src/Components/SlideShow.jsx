@@ -23,8 +23,8 @@ import "swiper/css/navigation";
 import "./Announcement.css";
 import NIT from '../assets/New/NIT_Goa.jpg'
 import Dudhsagar from "../assets/New/Dudhsagar_Falls_Triplet.jpg";
-import PVPanels from "../assets/New/PV_Panels.jpg";
-import PVPanels2 from "../assets/New/PV_Panels_2.jpg";
+import PVPanels from "../assets/New/pv_panels.jpg";
+import PVPanels2 from "../assets/New/pv_panels_2.jpg";
 const SlideShow = () => {
   const { theme } = useContext(AppContext);
   const slides = useSelector((state) => state.slides.slides);
