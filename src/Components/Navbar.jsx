@@ -163,27 +163,20 @@ const Navbar = () => {
           >
             <Link to="/">{t("home")}</Link>
           </p>
-          <p
-            onClick={toggleMenu}
-            className="mb-[13px] border-b border-b-gray-50/25"
-          >
-            {" "}
-            <Link to="/About">{t("about_us")}</Link>
-          </p>
           <div onClick={toggleAdminSubMenu} className={`mb-[13px] adminsubc`}>
             <div
               className={`${AdminMenu ? "arrow" : "arrow-down"
                 } border-b border-b-gray-50/25`}
             >
-              {t("administration")}
+              {t("Committee")}
             </div>
             <div className="ml-8" id="admin">
               <ul className="pt-3">
                 <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/BOG">{t("bog")}</Link>
+                  <Link to="/Organising_Committee">{t("Organising Committee")}</Link>
                 </li>
                 <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Director">{t("director")}</Link>
+                  <Link to="/Advisory_Committee">{t("Advisory Committee")}</Link>
                 </li>
               </ul>
             </div>
@@ -217,7 +210,7 @@ const Navbar = () => {
           <p className="mb-[13px] border-b border-b-gray-50/25">
             <Link to="/Contact">{t("Contact")}</Link>
           </p>
-          <p className="mb-[13px] border-b border-b-gray-50/25">{t("mis")}</p>
+          {/* <p className="mb-[13px] border-b border-b-gray-50/25">{t("mis")}</p> */}
         </div>
       </nav>
 
