@@ -122,7 +122,7 @@ const Announcement = () => {
             <div className="flex flex-col lg:flex-row gap-4 pt-8">
               <img src={NIT} className="lg:w-1/2 rounded-xl" alt="Nit goa" />
               <div>
-                <p className="text-lg">The <strong> 4th STPEC</strong> is scheduled to be held at <strong>National Institute of Technology, Goa, India</strong> from <a className="text-green-600">December 10 - 13, 2025.</a> This conference is proudly <strong>financially sponsored</strong> by the IEEE Industry Applications Society (IAS) and the IEEE Power Electronics Society (PELS), and it is <strong>technically sponsored</strong> by the IEEE Industrial Electronics Society.</p>
+                <p className="text-lg">The <strong> 4th STPEC</strong> is scheduled to be held at <strong>National Institute of Technology, Goa, India</strong> from <a className="text-green-700">December 10 - 13, 2025.</a> This conference is proudly <strong>financially sponsored</strong> by the IEEE Industry Applications Society (IAS) and the IEEE Power Electronics Society (PELS), and it is <strong>technically sponsored</strong> by the IEEE Industrial Electronics Society.</p>
               </div>
             </div>
           </div>
