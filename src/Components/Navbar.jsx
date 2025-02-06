@@ -474,13 +474,13 @@ const Navbar = () => {
               <Link to="https://www.nitgoa.ac.in/placementcell">
                 <p>{t("Sponsorship")}</p>
               </Link>
-              <Link to="https://www.nitgoa.ac.in/placementcell">
+              <Link to="/In_and_around_Goa">
                 <p>{t("In and around Goa")}</p>
               </Link>
-              <Link to="https://www.nitgoa.ac.in/placementcell">
+              <Link to="/Stay">
                 <p>{t("Stay")}</p>
               </Link>
-              <Link to="/">
+              <Link to="/Contact">
                 <li>{t("Contact")}</li>
               </Link>
             </div>

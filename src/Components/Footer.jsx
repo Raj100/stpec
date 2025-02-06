@@ -45,17 +45,17 @@ const Footer = () => {
 
   const footerSections = [
     { id: "quicklink", title: t("quicklink"), items: [
-      { text: "Home", link: "/About" },
-      { text: "Organising Commitee", link: "/Academics" },
+      { text: "Home", link: "/" },
+      { text: "Organising Commitee", link: "/" },
       { text: "Advisory Committee", link: "https://www.mis.nitgoa.ac.in/misnitgoa/result.aspx" },
       { text: "Submission", link: "https://forms.gle/Rvv3KaZ4VkbKhSLi7" },
       { text: "Registration", link: "/login" },
       { text: "Keynote Speakers", link: "/Dissertation" },
       { text: "Tutorials", link: "/edownloads" },
-      { text: "Contact Us", link: "/about" },
+      { text: "Contact Us", link: "/Contact" },
       { text: "Sponsorship", link: "/Academics" },
-      { text: "In and around Goa", link: "/rti" },
-      { text: "Stay", link: "/Academics" },
+      { text: "In and around Goa", link: "/In_and_around_Goa" },
+      { text: "Stay", link: "/Stay" },
       { text: "IEEE", link: "https://www.ieee.org/" },
     ]},
     { id: "info", title: t("info"), items: [

@@ -64,6 +64,9 @@ import ManageFaculties from "./Pages/admin/mangeFaculties/MangeFaculties.jsx";
 import FacultyProfilePageByAdmin from "./Pages/admin/AdminEditFaculty/AdminEditFaculty.jsx";
 import Edownloads from "./Pages/Edownloads.jsx";
 import OrganisingCommitee from "./Pages/OrganisingCommittee/OrganisingCommitee.jsx";
+import In_and_around_Goa from "./Pages/In_and_around_Goa/In_and_around_Goa.jsx";
+import Stay from "./Pages/Stay/Stay.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -174,6 +177,9 @@ const Root = () => {
 
 
               <Route path="/Organising_Commitee" element={<OrganisingCommitee />} />
+              <Route path="/In_and_around_Goa" element={<In_and_around_Goa />} />
+              <Route path="/Stay" element={<Stay />} />
+              <Route path="/Contact" element={<Contact />} />
               <Route
                     path="*"
                     element={<Error />}
