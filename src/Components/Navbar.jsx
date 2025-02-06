@@ -185,92 +185,37 @@ const Navbar = () => {
                 <li className={`mb-[13px] border-b border-b-gray-50/25`}>
                   <Link to="/Director">{t("director")}</Link>
                 </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Registrar">{t("registrar")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Senate">{t("senate")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Dean">{t("dean")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Committee">Committees</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Building">{t("bwc")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Finance">{t("Finance Commitee")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/HOD">Head of Departments</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="https://www.nitgoa.ac.in/static/Org_Chart.pdf">Organisational Structure</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Reports">{t("reports")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Reports">{t("reports")}</Link>
-                </li>
               </ul>
             </div>
           </div>
-          <div
-            onClick={toggleAcademicSubMenu}
-            className={`mb-[13px] academicsubc`}
-          >
-            <div
-              className={`${AcademicsMenu ? "arrow" : "arrow-down"
-                } border-b border-b-gray-50/25`}
-            >
-              {t("academics")}
-            </div>
-            <div className="ml-8" id="academic">
-              <ul className="pt-3">
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Academics">{t("academic_calender")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/rules_and_regulations">{t("Rules and Regulations")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="https://www.mis.nitgoa.ac.in/misnitgoa/result.aspx">{t("Results")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Dissertation Formats">{t("Dissertation Formats")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Departments">{t("Departments")}</Link>
-                </li>
-                <li className={`mb-[13px] border-b border-b-gray-50/25`}>
-                  <Link to="/Library">{t("Library")}</Link>
-                </li>
 
-
-
-
-
-              </ul>
-            </div>
-          </div>
           <p className="mb-[13px] border-b border-b-gray-50/25">
-            <Link to="/Departments">{t("dept")}</Link>
+            <Link to="/Topics">{t("Topics")}</Link>
           </p>
           <p className="mb-[13px] border-b border-b-gray-50/25">
-            <Link to="/Research">{t("research")}</Link>
+            <Link to="/Timeline">{t("Timeline")}</Link>
           </p>
           <p className="mb-[13px] border-b border-b-gray-50/25">
-            <Link to="/Traning&Placement">{t("t_p")}</Link>
+            <Link to="/Submission">{t("Submission")}</Link>
           </p>
           {/* <p  className="mb-[13px]"><Link to="/Research" >Students</Link></p> */}
           <p className="mb-[13px] border-b border-b-gray-50/25">
-            <Link to="/Alumni">{t("alumni")}</Link>
+            <Link to="/Registration">{t("Registration")}</Link>
           </p>
           <p className="mb-[13px] border-b border-b-gray-50/25">
-            <Link to="/Noneofourbussiness">{t("feepay")}</Link>
+            <Link to="/Keynote Speakers">{t("Keynote Speakers")}</Link>
+          </p>
+          <p className="mb-[13px] border-b border-b-gray-50/25">
+            <Link to="/Sponsorship">{t("Sponsorship")}</Link>
+          </p>
+          <p className="mb-[13px] border-b border-b-gray-50/25">
+            <Link to="/In_and_around_Goa">{t("In and around Goa")}</Link>
+          </p>
+          <p className="mb-[13px] border-b border-b-gray-50/25">
+            <Link to="/Stay">{t("Stay")}</Link>
+          </p>
+          <p className="mb-[13px] border-b border-b-gray-50/25">
+            <Link to="/Contact">{t("Contact")}</Link>
           </p>
           <p className="mb-[13px] border-b border-b-gray-50/25">{t("mis")}</p>
         </div>
