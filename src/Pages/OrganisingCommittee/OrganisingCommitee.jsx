@@ -96,7 +96,7 @@ commitee: "",
                         <p className='text-center'>NIT Goa</p>
                     </div>
                     <div>
-                        <img src={Harikumar} alt="" className='w-48 h-48 rounded-xl mb-2' />
+                        <img src={Harikumar} alt="" className='rounded-full w-32 h-32 mb-2' />
                         <p className='text-center'>Dr. Harikumar</p>
                         <p className='text-center'>NIT Goa</p>
                     </div>
