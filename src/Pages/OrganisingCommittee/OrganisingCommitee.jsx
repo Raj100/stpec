@@ -13,6 +13,14 @@ import Venkatanareshbabu from '../../assets/New/Venkatanareshbabu.jpeg'
 import Harikumar from '../../assets/New/Dr. Harikumar M.png'
 
 const OrganisingCommitee = () => {
+ const image=[
+{name:"check", 
+image: "Venkatanareshbabu",
+postion: "",
+organisation: "",
+commitee: "",
+},{}
+]
     return (
         <>
             <Navbar></Navbar>
@@ -20,7 +28,7 @@ const OrganisingCommitee = () => {
                 <h1 className='text-3xl text-center p-4 font-bold'>Patron</h1>
                 <div className='flex flex-col items-center'>
                     <div>
-                        <img src={Director} alt="" className='w-48 h-48 rounded-xl mb-2' />
+                        <img src={Director} alt="" className='rounded-full w-32 h-32 rounded-xl mb-2 ' />
                         <p className='text-center'>Dr. O. R. Jaiswal</p>
                         <p className='text-center'>Director, NIT Goa</p>
                     </div>
