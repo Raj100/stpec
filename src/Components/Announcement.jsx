@@ -75,7 +75,7 @@ const Announcement = () => {
 
       <div className={`bg-${theme}bg  pb-5 text-${theme}txt lg:px-10`}>
         <div className=" flex flex-col text-center justify-center">
-          {/* <h1 className="font-dosis font-semibold	text-lg	">
+          {/* <h1 className="font-dosis font-semibold	 text-lg 	">
             {t("announcement")}
           </h1>
           <div
@@ -90,7 +90,7 @@ const Announcement = () => {
           <div className="flex items-center px-4 gap-3">
             <p className="hidden lg:block text-lg font-bold z-10 p-1 rounded-md">{t("announcement")}</p>
             <div className="hidden lg:block" >|</div>
-            <Marquee pauseOnHover className=" lg:text-md p-1 flex-grow">
+            <Marquee pauseOnHover className=" lg:text-md p-1 flex-grow text-green-700">
               Program Schedule published. Poster & PPT Template are available... Extended versions of all presented papers will be eligible for further review and possible publication in IEEE Transactions on Industry Applications."......Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
               {/* {t("announcement_content")} */}
               {/* {announcementsLoading &&
