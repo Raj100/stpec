@@ -11,7 +11,7 @@ export const Todo = () => {
   return (
     <div>
         <h1 className="text-3xl font-bold p-2 text-center"> Days Left</h1>
-    <section className="grid grid-cols-3 content-center justify-evenly gap-4 p-4">
+    <section className="grid grid-cols-3 content-center justify-evenly p-4 gap-2 md:gap-4 md:p-4">
       <LogoRolodex
         items={[]}
         DELAY_IN_MS={1000*360}
@@ -60,7 +60,7 @@ const LogoRolodex = ({ items, DELAY_IN_MS, time }) => {
         transform: "rotateY(-20deg)",
         transformStyle: "preserve-3d",
       }}
-      className="relative z-0 h-44 w-60 shrink-0 rounded-xl border border-green-800 bg-green-800"
+      className="relative z-0 w-full h-28 md:h-44 md:w-60 shrink-0 rounded-xl border border-green-800 bg-green-800"
     >
       <AnimatePresence mode="sync">
         <motion.div
@@ -83,7 +83,7 @@ const LogoRolodex = ({ items, DELAY_IN_MS, time }) => {
         >
           <div key={1}
           className={twMerge(
-            "grid h-36 w-52 place-content-center rounded-lg bg-green-700 text-6xl text-neutral-50")}
+            "grid h-20 w-20 text-2xl md:h-36 md:w-52 place-content-center rounded-lg bg-green-700 md:text-6xl text-neutral-50")}
         >
           {current}
         </div>
@@ -108,7 +108,7 @@ const LogoRolodex = ({ items, DELAY_IN_MS, time }) => {
         >
          <div key={1}
           className={twMerge(
-            "grid h-36 w-52 place-content-center rounded-lg bg-green-700 text-6xl text-neutral-50")}
+            "grid h-20 w-20 text-2xl md:h-36 md:w-52 place-content-center rounded-lg bg-green-700 md:text-6xl text-neutral-50")}
         >
           {current}
         </div>

@@ -79,16 +79,12 @@ const SlideShow = () => {
                   </div> */}
               <div className="absolute flex w-full h-full p-4 bg-black bg-opacity-40">
                 <div className="hidden lg:flex w-1/2 h-full bg-black rounded-xl text-white bg-opacity-40 text-left">
-                  <div className="flex flex-col p-4 h-full">
-                    <h1 className="text-2xl font-bold text-center">Important Dates</h1>
-                      <ul className=" list-none text-2xl flex flex-col h-full justify-evenly">
-                        <li>Registration opens : 01 April 2025</li>
-                        <li>Paper submission opens : 10 April 2025</li>
-                        <li>Deadline for full paper submission : 15 July 2025 31 July 2025 (Hard Deadline)</li>
-                        <li>Notification of acceptance : 10 Sep 2025</li>
-                        <li>Deadline for Early Bird Registration : 25 Sep 2025</li>
-                        <li>Deadline for Standard Registration : 15 Nov 2025</li>
-                        <li>Deadline for camera ready paper submission : 15 Oct 2025</li>
+                  <div className="flex flex-col p-4 h-full w-full">
+                    <h1 className="text-3xl font-bold text-center">Important Dates</h1>
+                      <ul className="list-none text-2xl flex flex-col h-full justify-evenly">
+                        <li>Paper Submission Opens: 01 Feb, 2025</li>
+                        <li>Deadline for Full Paper Submission: 31 May, 2025</li>
+                        <li>Notification of Acceptance: 31 July, 2025</li>
                       </ul>
                   </div>
                 </div>

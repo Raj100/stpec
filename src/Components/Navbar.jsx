@@ -366,10 +366,13 @@ const Navbar = () => {
               <Link to="/">
                <li>{t("home")}</li>
               </Link>
+              <Link to="/Organising_Committee">
+               <li>{t("Committee")}</li>
+              </Link>
               {/* <Link to="/About">
       <li>{t("about_us")}</li>
     </Link> */}
-              <div
+              {/* <div
                 className="relative cursor-pointer"
                 onMouseOver={() => {
                   setMenu1(true);
@@ -390,23 +393,23 @@ const Navbar = () => {
                     <Link to="/Advisory_Committee">{t("Advisory Committee")}</Link>
                   </li>
                 </ul>
-              </div>
-              <Link to="/">
+              </div> */}
+              <Link to="/Topics">
                 <li>{t("Topics")}</li>
               </Link>
-              <Link to="/">
+              <Link to="/Timeline">
                 <li>{t("Timeline")}</li>
               </Link>
-              <Link to="/">
+              <Link to="/Submission">
                 <li>{t("Submission")}</li>
               </Link>
-              <Link to="/">
+              <Link to="/Registration">
                 <li>{t("Registration")}</li>
               </Link>
-              <Link to="/">
+              <Link to="/Keynote_Speakers">
                 <li>{t("Keynote Speakers")}</li>
               </Link>
-              <Link to="https://www.nitgoa.ac.in/placementcell">
+              <Link to="/Sponsorship">
                 <p>{t("Sponsorship")}</p>
               </Link>
               {/* <Link to="https://www.nitgoa.ac.in/placementcell">

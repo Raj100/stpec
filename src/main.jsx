@@ -67,6 +67,8 @@ import OrganisingCommitee from "./Pages/OrganisingCommittee/OrganisingCommitee.j
 import In_and_around_Goa from "./Pages/In_and_around_Goa/In_and_around_Goa.jsx";
 import Stay from "./Pages/Stay/Stay.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
+import Topics from "./Pages/Topics/topics.jsx";
+import Timeline from "./Pages/Timeline/Timeline.jsx";
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -172,10 +174,8 @@ const Root = () => {
               <Route path="/rules_and_regulations" element={<RulesAndRegulations />} />
 
 
-
-
-
-
+              <Route path="/Timeline" element={<Timeline />} />
+              <Route path="/Topics" element={<Topics />} />
               <Route path="/Organising_Committee" element={<OrganisingCommitee />} />
               <Route path="/In_and_around_Goa" element={<In_and_around_Goa />} />
               <Route path="/Stay" element={<Stay />} />
