@@ -2,9 +2,24 @@ import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 import Director from '../../assets/director.jpeg'
 import Suresh from '../../assets/New/Dr. Suresh Mikkili.png'
+import AndyKnight from '../../assets/New/AndyKnight1.jpg'
 import Somitra from '../../assets/New/Dr. Soumitra Das.png'
 import Amol from '../../assets/New/Dr. Amol D. Rahulkar.jpg'
+import Avoki from '../../assets/New/Dr. Avoki Omekanda.jpg'
+import Bred from '../../assets/New/Bredley Lehman.jpeg'
+import Milos from '../../assets/New/ProfessorMilosManic.jpg'
+import Frede from '../../assets/New/FredeBl_bjerg.jpg'
+import Yang from '../../assets/New/Yang Shi.jpeg'
+import Akshay from '../../assets/New/Akshay Rathore.jpeg'
+import huang from '../../assets/New/Huang-jen chiu.jpeg'
+import Pradyumn from '../../assets/New/Pradyumn Chaturvedi.jpeg'
 import Cvyjayanthi from '../../assets/New/Dr. C.Vyjayanthi.png'
+import Patwheeler from '../../assets/New/Pat-wheeler.webp'
+import Sunanda from '../../assets/New/Sunanda Sinha.jpeg'
+import Ramsha from '../../assets/New/Ramsha Karampuri.jpg'
+import Trilochan from '../../assets/New/Trilochan Panigrahi.jpeg'
+import Siba from '../../assets/New/Siba Kumar Patro.jpeg'
+import Ravi from '../../assets/New/Ravi Ragoju.jpeg'
 import Sreeraj from '../../assets/New/Dr. Sreeraj E S.png'
 import Prasenjit from '../../assets/New/Dr. PRASENJIT DEY.png'
 import Chirag from '../../assets/New/Chirag_Modi.jpeg'
@@ -33,6 +48,60 @@ commitee: "",
                         <p className='text-center'>Director, NIT Goa</p>
                     </div>
                 </div>
+                <h1 className='text-3xl text-center p-4 font-bold'>Honorary Chairs</h1>
+                <div className='flex flex-row justify-evenly items-center'>
+                    <div>
+                    <img src={AndyKnight} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Andy Knight</p>
+                        <p className='text-center'>Canada</p>
+                    </div>
+                    <div>
+                    <img src={Avoki} alt="" className='rounded-full w-32 h-32 mb-2 ' />
+                        <p className='text-center'>Dr. Avoki Omekanda</p>
+                        <p className='text-center'>USA</p>
+                    </div>
+                    <div>
+                    <img src={Milos} alt="" className='rounded-full w-32 h-32 mb-2 ' />
+                        <p className='text-center'>Dr. Milos Manic</p>
+                        <p className='text-center'>USA</p>
+                    </div>
+                    <div>
+                    <img src={Yang} alt="" className='rounded-full w-32 h-32 mb-2 ' />
+                        <p className='text-center'>Dr. Yang Shi</p>
+                        <p className='text-center'>Canada</p>
+                    </div>
+                    <div>
+                    <img src={Bred} alt="" className='rounded-full w-32 h-32 mb-2 ' />
+                        <p className='text-center'>Dr. Brad Lehman</p>
+                        <p className='text-center'>USA</p>
+                    </div>
+                    <div>
+                    <img src={Frede} alt="" className='rounded-full w-32 h-32 mb-2 ' />
+                        <p className='text-center'>Dr. Frede Blaabjerg</p>
+                        <p className='text-center'>Denmark</p>
+                    </div>
+                </div>
+                <h1 className='text-3xl text-center p-4 font-bold'>IEEE IAS Representative</h1>
+                <div className='flex flex-col items-center'>
+                    <div>
+                    <img src={Akshay} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Akshay Rathore</p>
+                        <p className='text-center'>Singapore</p>
+                    </div>
+                </div>
+                <h1 className='text-3xl text-center p-4 font-bold'>General Chairs</h1>
+                <div className='flex flex-row justify-evenly items-center'>
+                    <div>
+                    <img src={huang} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Huang-Jen Chiu</p>
+                        <p className='text-center'>NTUST, Taiwan</p>
+                    </div>
+                    <div>
+                    <img src={Pradyumn} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Pradyumn Chaturvedi</p>
+                        <p className='text-center'>VNIT Nagpur</p>
+                    </div>
+                </div>
                 <h1 className='text-3xl text-center p-4 font-bold'>General Co-Chairs</h1>
                 <div className='flex flex-col items-center'>
                     <div>
@@ -59,6 +128,42 @@ commitee: "",
                     <div>
                     <img src={Cvyjayanthi} alt="" className='rounded-full w-32 h-32 mb-2 ' />
                         <p className='text-center'>Dr. C. Vyjayanthi</p>
+                        <p className='text-center'>NIT Goa</p>
+                    </div>
+                </div>
+                <h1 className='text-3xl text-center p-4 font-bold'>Technical Program Chairs</h1>
+                <div className='flex flex-row justify-evenly items-center'>
+                    <div>
+                    <img src={Patwheeler} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Patrick Wheeler</p>
+                        <p className='text-center'>NU, UK</p>
+                    </div>
+                    <div>
+                    <img src={Sunanda} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Sunanda Sinha</p>
+                        <p className='text-center'>MNIT Jaipur</p>
+                    </div>
+                    <div>
+                    <img src={Ramsha} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. K Ramsha</p>
+                        <p className='text-center'>VNIT Nagpur</p>
+                    </div>
+                    <div>
+                    <img src={Trilochan} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Trilochan Panigrahi</p>
+                        <p className='text-center'>NIT Goa</p>
+                    </div>
+                </div>
+                <h1 className='text-3xl text-center p-4 font-bold'>Publication Chairs</h1>
+                <div className='flex flex-row justify-evenly items-center'>
+                    <div>
+                    <img src={Siba} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Siba Kumar Patro</p>
+                        <p className='text-center'>IIT Roorkee</p>
+                    </div>
+                    <div>
+                    <img src={Ravi} alt="" className='rounded-full w-32 h-32 mb-2' />
+                        <p className='text-center'>Dr. Ragoju Ravi</p>
                         <p className='text-center'>NIT Goa</p>
                     </div>
                 </div>

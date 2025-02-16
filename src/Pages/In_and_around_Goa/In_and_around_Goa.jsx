@@ -11,7 +11,8 @@ const In_and_around_Goa = () => {
   return (
     <>
       <Navbar></Navbar>
-      <div className="p-4 bg-gray-100 lg:px-20 lg:pb-12">
+      <div className="p-4 bg-yellow-100 lg:px-20 lg:pb-12">
+      {/* <div className="p-4 lg:px-20 lg:pb-12 bg-[url('src/assets/images/placesbg.png')] bg-cover bg-center opacity-3 z-[-1]"> */}
       <h1 className="text-2xl p-2 font-semibold">In and Around Goa</h1>
         <div className="text-lg">
         Goa, renowned as the 'Pearl of the Orient,' is a premier coastal destination celebrated for its pristine beaches, vibrant culture, and rich historical heritage. Blending Portuguese influences with Indian traditions, Goa offers an unparalleled experience through its architectural marvels, serene landscapes, and world-class hospitality. From the lively shores of North Goa to the tranquil retreats of the south, visitors can explore breathtaking beaches, ancient churches, and exquisite temples. The region’s diverse culinary offerings, thrilling water sports, and luxurious resorts make it an ideal destination for both leisure and business travelers. Whether seeking adventure, relaxation, or cultural immersion, Goa promises an unforgettable experience enriched by its timeless charm and warm hospitality.

@@ -90,7 +90,7 @@ const Announcement = () => {
           <div className="flex items-center px-4 gap-3">
             <p className="hidden lg:block text-lg font-bold z-10 p-1 rounded-md">{t("announcement")}</p>
             <div className="hidden lg:block" >|</div>
-            <Marquee pauseOnHover className=" lg:text-md p-1 flex-grow text-green-700">
+            <Marquee pauseOnHover className=" lg:text-md p-1 flex-grow text-red-700">
               Program Schedule published. Poster & PPT Template are available... Extended versions of all presented papers will be eligible for further review and possible publication in IEEE Transactions on Industry Applications."......Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
               {/* {t("announcement_content")} */}
               {/* {announcementsLoading &&
