@@ -16,6 +16,7 @@ import { fetchNotices } from "../features/NoticeBoard/NoticeBoardSlice";
 import { fetchTender } from "../features/Tenders/tendersSlide";
 import Statistics from "./Statistics";
 import NIT from '../assets/New/NIT_Goa.jpg'
+import Timmer from "./timmer";
 
 const Announcement = () => {
   const { t } = useTranslation();
@@ -127,7 +128,10 @@ const Announcement = () => {
             </div>
           </div>
         </div>
-        {/* <Statistics /> */}
+        {/* <Timmer /> */}
+        
+        <Timmer></Timmer>
+
       </div>
       <div className="hidden -translate-y-[0px] -translate-y-[40px] -translate-y-[80px] translate-x-[10px]  -translate-x-[340px] -translate-x-[341px] -translate-x-[690px]"></div>
     </div>
