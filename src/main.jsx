@@ -67,7 +67,7 @@ import OrganisingCommitee from "./Pages/OrganisingCommittee/OrganisingCommitee.j
 import In_and_around_Goa from "./Pages/In_and_around_Goa/In_and_around_Goa.jsx";
 import Stay from "./Pages/Stay/Stay.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
-import Topics from "./Pages/Topics/topics.jsx";
+import Topics from "./Pages/Topics/Topics.jsx";
 import Timeline from "./Pages/Timeline/Timeline.jsx";
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
