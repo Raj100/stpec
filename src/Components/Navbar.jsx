@@ -362,7 +362,7 @@ const Navbar = () => {
           <div className="w-full">
             <ul className="list-none">
             
-            <div className={`flex gap-[23px] items-center justify-center p-[10px] font-dosis text-md bg-blue-950 text-white`}>
+            <div className={`flex gap-[23px] items-center justify-center p-[10px] font-dosis text-md bg-green-700 text-white`}>
               <Link to="/">
                <li>{t("home")}</li>
               </Link>
